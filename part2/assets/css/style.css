@@ -63,9 +63,19 @@ section {
 
 
 @media only screen and (max-width: 768px) {
-	/* Add your code here */
-}
+	section{
+		float: none;
+	}
+	.content-wrapper{
+		background-color: blue;
+		width: 90%;
+	}
 
 @media only screen and (max-width: 640px) {
-	/* Add your code here */
+	.about-me img{
+		float: none;
+	}
+	.content-wrapper{
+		background-color: green;
+	}
 }
