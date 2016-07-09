@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/cover.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#cccccc;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {	
-	background: url(../img/cover.jpg) no-repeat center top;
+	background: url(../img/back.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -205,6 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 550px;
 	width: 100%;
+
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -215,9 +216,16 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
+#aboutwrap h1{
+	color: #cccccc;
+}
 
+#aboutwrap h4{
+	color:#dddddd;
+}
 
 
 /* Gallery */
